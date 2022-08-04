@@ -1,0 +1,36 @@
+//toronto
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=54239&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=31688&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=51459&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+
+//vancouver
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=888&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=6833&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=51442&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=51442&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=844&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+//regina
+
+//REGINA INTL A Latitude:50°25'56.000" N Longitude:104°39'58.000" W
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=51441&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+//BRATT'S LAKE CLIMATE Latitude:50°12'02.001" N Longitude:104°42'36.000" W
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=44543&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+//MOOSE JAW CS Latitude:50°19'54.050" N Longitude:105°32'15.030" W
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=27476&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
+
+//YELLOW GRASS NORTH Latitude:49°49'00.000" N Longitude:104°11'00.000" W
+for year in `seq 2016 2022`;do for month in `seq 1 12`;do wget --content-disposition "https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=54518&Year=${year}&Month=${month}&Day=14&timeframe=1&submit= Download+Data" ;done;done
